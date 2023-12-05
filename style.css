@@ -1,0 +1,658 @@
+:root {
+  --blue: rgb(90, 182, 204);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid
+  header
+  .header-navlinks
+  .navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a
+  span {
+  font-size: 0.75em;
+}
+.container-fluid
+  header
+  .header-navlinks
+  .navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a:hover
+  span {
+  color: var(--blue) !important;
+}
+
+.container-fluid
+  header
+  .header-navlinks
+  .navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a,
+.container-fluid
+  header
+  .header-navlinks
+  .navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a
+  i,
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  a.nav-link
+  span.location,
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  form
+  div.input-group
+  span,
+.container-fluid
+  div.main-inner
+  section.service-props
+  div.review
+  div.d-flex
+  div.text-center
+  p.fs-5 {
+  color: var(--blue);
+}
+
+.container-fluid
+  header
+  .header-navlinks
+  .navbar
+  .container
+  .collapse
+  ul.navbar-nav
+  li.nav-item
+  a
+  span.nav-link-contact {
+  font-size: 15px;
+}
+
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  a.nav-link
+  span.px-2 {
+  font-size: 13px;
+}
+
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  form
+  div.input-group {
+  border: 1px solid #d5d5d5;
+}
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  form
+  div.input-group:focus-within {
+  border: 1px solid var(--blue);
+}
+
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  a
+  span.location-on {
+  background-color: var(--blue) !important;
+}
+
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li.nav-item
+  a.nav-link:hover
+  span#account {
+  color: var(--blue);
+}
+.container-fluid
+  nav.navbar
+  .container
+  div.navbar-collapse
+  ul.navbar-nav
+  li#cart-list
+  a.nav-link:hover
+  span {
+  color: var(--blue) !important;
+}
+
+.container-fluid header nav.nav-tabs-list {
+  background-color: #575563;
+}
+.container-fluid header nav.nav-tabs-list .container ul.nav li.shop-products {
+  background-color: var(--blue);
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  box-shadow: 0px -2px 1px 1px var(--blue);
+}
+.container-fluid
+  header
+  nav.nav-tabs-list
+  .container
+  ul.nav
+  li.nav-item
+  a.nav-link {
+  font-size: 14px;
+}
+.container-fluid header nav.nav-tabs-list .container ul.nav li.nav-item:hover {
+  background-color: var(--blue);
+}
+.container-fluid
+  header
+  nav.nav-tabs-list
+  .container
+  ul.nav
+  li.shop-products
+  a.nav-link
+  span {
+  font-size: 15px;
+}
+/* 
+.container-fluid
+  div.main-inner
+  div.p-4
+  section.homepage-top-content
+  div.homepage-main-product
+  div.homepage-tiles {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "cat-1 cat-2 cat-3 sales"
+    "cat-4 cat-5 cat-6 tall"
+    "cat-7 cat-8 cat-9 tall"
+    "cat-10 cat-11 cat-12 cat-13";
+  grid-gap: 20px;
+}
+.container-fluid
+  div.main-inner
+  div.p-4
+  section.homepage-top-content
+  div.homepage-main-product
+  div.homepage-tiles
+  .tall {
+  grid-column: 4;
+  grid-row: 2 / span 2;
+} */
+
+.container-fluid
+  div.main-inner
+  div.p-4
+  section.homepage-top-content
+  div.homepage-main-product
+  div.homepage-tiles
+  .sales {
+  max-width: 20rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2 cat-3 sales"
+      "cat-4 cat-5 cat-6 tall"
+      "cat-7 cat-8 cat-9 tall"
+      "cat-10 cat-11 cat-12 cat-13";
+    grid-gap: 20px;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    grid-column: 4;
+    grid-row: 2 / span 2;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 17rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    max-width: 18rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2 cat-3 sales"
+      "cat-4 cat-5 cat-6 tall"
+      "cat-7 cat-8 cat-9 tall"
+      "cat-10 cat-11 cat-12 cat-13";
+    grid-gap: 20px;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    grid-column: 4;
+    grid-row: 2 / span 2;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 20rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    max-width: 20rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2 cat-3 sales"
+      "cat-4 cat-5 cat-6 tall"
+      "cat-7 cat-8 cat-9 tall"
+      "cat-10 cat-11 cat-12 cat-13";
+    grid-gap: 20px;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    grid-column: 4;
+    grid-row: 2 / span 2;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 15rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    max-width: 15.5rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2 cat-3"
+      "cat-4 cat-5 cat-6"
+      "cat-7 cat-8 cat-9"
+      "cat-10 cat-11 cat-12 "
+      "cal-13 sales tall";
+    grid-gap: 20px;
+  }
+
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 14rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    display: none;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body
+    p.card-text {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2"
+      "cat-3 sales"
+      "cat-4 cat-5"
+      "cat-6 cat-7"
+      "cat-8 cat-9"
+      "cat-10 cat-11"
+      "cal-12 cat-13";
+    grid-gap: 20px;
+  }
+
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 17rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    display: none;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body
+    p.card-text {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2"
+      "cat-3 sales"
+      "cat-4 cat-5"
+      "cat-6 cat-7"
+      "cat-8 cat-9"
+      "cat-10 cat-11"
+      "cal-12 cat-13";
+    grid-gap: 10px;
+  }
+
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 17rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    display: none;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body
+    p.card-text {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "cat-1 cat-2"
+      "cat-3 sales"
+      "cat-4 cat-5"
+      "cat-6 cat-7"
+      "cat-8 cat-9"
+      "cat-10 cat-11"
+      "cal-12 cat-13";
+    grid-gap: 10px;
+  }
+
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 13rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    display: none;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body
+    p.card-text {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body {
+    width: 13rem !important;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "cat-1"
+      "cat-2"
+      "cat-3"
+      "sales"
+      "cat-4"
+      "cat-5"
+      "cat-6"
+      "cat-7"
+      "cat-8"
+      "cat-9"
+      "cat-10"
+      "cat-11"
+      "cal-12"
+      "cat-13";
+    grid-gap: 20px;
+  }
+
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .sales {
+    max-width: 26rem;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    .tall {
+    display: none;
+  }
+  .container-fluid
+    div.main-inner
+    div.p-4
+    section.homepage-top-content
+    div.homepage-main-product
+    div.homepage-tiles
+    div
+    div.card
+    div.card-body
+    p.card-text {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+}
